@@ -1,0 +1,5 @@
+services:
+  web:
+    image: ${DOCKER_USER}/2048-shinta5
+    ports:
+      - "9999:80"
